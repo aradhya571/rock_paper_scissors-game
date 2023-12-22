@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wgh@200;300;400;500;600;700&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/bg.jpg");    
+}
+
+header{
+    width: 100%;
+    height: 100 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    background-image: url("images/bg.jpg");
+    color: #ffffff;
+    font-weight:900;
+    text-decoration: underline;
+}
+
+.container{
+    width: auto;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sq-border{
+    border-style: solid;
+    border-color: #fff;
+    display: inline-block;
+    margin-left: 575px;
+}
+
+.img{
+    width: 5%;
+    transition: all 0.3s ease;
+    height: 5%;
+}
+
+.player{
+    padding-right: 8%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.buttons button{
+    width: 100px;
+    height: 50px;
+    border: black solid 1 px;
+    border-radius: 10%;
+    outline: black;
+    background: #ffffff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.result{
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 200;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #291414;
+    box-shadow: 0 0 5px rgba(45, 22, 22, 0.1);
+}
+
+.score-board{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#score{
+    width: auto;
+    height: 50px;
+    padding: 20 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#user-label{
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: lighter;
+    padding-right: 20px ;
+}
+
+#computer-label{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+#user-score{
+    padding-right: 40px;
+    font-size: 30px;
+}
+
+#computer-score{
+    padding-left:40px ;
+    font-size: 30px;
+}
+
+.score{
+    width: auto;
+    height: 50px;
+    padding: 20 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button :hover{
+    background: #000;
+    color: #fff;
+}
+
+.light-text{
+    color: #fff;
+}
